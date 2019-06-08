@@ -6,7 +6,7 @@
 
 		<title>A Potential Intersection of Perl, Youth Education, and Civic Hacking</title>
 
-		<meta name="description" content="A brief and meta lightning talk proposing an intersection between the need for some perl evangelism, a dearth in youth education in computer sciences, and the public's potentially open-sourced need for more involvement by those with problem solving skills like ours.">
+		<meta name="description" content="">
 		<meta name="author" content="Joshua Eric Turcotte">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -31,6 +31,22 @@
 			}
 		</script>
 
+		<style>
+			body {
+				background-image: url("img/paper.png");
+			}
+			img, pre {
+				border: 0 !important;
+				box-shadow: 0 0 0 #000 !important;
+			}
+			h1, h2, h3, h4, h5, p {
+				font-family: Geneva, Tahoma, Verdana, sans-serif !important;
+			}
+			pre {
+				font-size: 0.78em !important;
+			}
+		</style>
+
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -42,17 +58,106 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+
+				<!-- intro screen -->
 				<section>
-					<h3>Perl, Youth Education, and Civic Hacking</h3>
-					<h2>A possible crossroad?</h2>
-					<p>
-						<small>~ Joshua Eric Turcotte / <a href="http://twitter.com/je_turcotte">@je_turcotte</a></small>
-					</p>
+					<h2>use Civic::Engagement;</h2>
+					<h4>Perl Evangelism through Civic Hacking</h4>
+					<h4>
+						<small>A Pep/Meta talk from Joshua Eric Turcotte / <a href="https://twitter.com/je_turcotte">@je_turcotte</a></small>
+					</h4>
+					</br>
+					<h5>Borrowing from Catherine Bracy / <a href="/https://twitter.com/cbracy">@cbracy</a></h5>
+					<h5>and from Stevan Little / <a href="/https://twitter.com/stevanlittle">@stevanlittle</a></h5>
+					<h5>and from Conor Myhrvold / <a href="/https://twitter.com/conormhyrvold">@conormhyrvold</a></h5>
+					<h5>and maybe from Simon Sinek in spirit</h5>
+				</section>
+
+				<!-- who section -->
+				<section>
+					<img src="slides/why.slide.hi.png" />
 				</section>
 
 				<section>
+					<pre>
+return {
+	name => 'J.E. Turcotte',
+	twitter => '@JE_turcotte',
+	gig => ['NumbersUSA','eMAGERY'],
+	group => {
+		dcpm => [2012..2019],
+		coda_for_nova => [2013..2019]
+	},
+	organizer => {
+		dcbpw => [2013,2014,2015,2016,2019],
+		tpc => [2017]
+	},
+	perl => {
+		duration_in_seconds => '6.623e+8',
+		skill_estimate => 'meh'
+	}
+}
+					</pre>
+				</section>
+
+				<section>
+					<section><img src="slides/why.edu_self.png" /></section>
+					<section><img src="slides/why.edu_hs.png" /></section>
+					<section><img src="slides/why.edu_uni.png" /></section>
+					<section><img src="slides/why.edu_recursion.png" /></section>
+				</section>
+
+				<section>
+					<section><img src="slides/why.gig_img.png" /></section>
+					<section><img src="slides/why.gig_nusa.png" /></section>
+					<section data-background="slides/tiobe.2002.png"><img src="slides/why.gig_nusa.tcg_nusa.png" /></section>
+					<section data-background="slides/tiobe.2007.png"><img src="slides/why.gig_nusa.new_york.png" /></section>
+					<section data-background="slides/tiobe.2010.png"><img src="slides/why.gig_nusa.virginia.png" /></section>
+				</section>
+
+				<section>
+					<section data-background="slides/tiobe.2012.png"><img src="slides/why.grp_perl.png" /></section>
+					<section data-background="slides/tiobe.2013.png"><img src="slides/why.grp_perl.no_show.png" /></section>
+					<section data-background="slides/tiobe.2014.png"><img src="slides/why.grp_perl.attendance.png" /></section>
+					<section data-background="slides/tiobe.2015.png"><img src="slides/why.grp_perl.pizza.png" /></section>
+					<section data-background="slides/tiobe.2016.png"><img src="slides/why.grp_perl.dcbpw.png" /></section>
+					<section data-background="slides/tiobe.2017.png"><img src="slides/why.grp_perl.tpc.png" /></section>
+					<section data-background="slides/tiobe.2018.png"><img src="slides/why.grp_perl.break.png" /></section>
+					<section data-background="slides/tiobe.2019.png"><img src="slides/why.grp_perl.submit_a_talk.png" /></section>
+				</section>
+				
+				<section>
+					<section><img src="slides/why.stevan." /></section>
+					<section><img src="slides/why.stevan." /></section>
+					<section><img src="slides/why.stevan." /></section>
+					<section><img src="slides/why.stevan." /></section>
+					<section><img src="slides/why.stevan." /></section>
+					<section><img src="slides/why.stevan." /></section>
+				</section>
+
+				<section>
+					<section><img src="slides/why.conor." /></section>
+					<section><img src="slides/why.conor." /></section>
+					<section><img src="slides/why.conor." /></section>
+					<section><img src="slides/why.conor." /></section>
+				</section>
+	
+				<section>
+					<section><img src="slides/what.bracy." /></section>
+					<section><img src="slides/what.bracy." /></section>
+					<section><img src="slides/what.bracy." /></section>
+					<section><img src="slides/what.bracy." /></section>
+				</section>
+	
+				<section>
+					<img src="slides/why.grp_civic.png" />
+				</section>
+		
+	
+
+				<section>
 					<section>
-						<h2>So, folk have been talking;</h2>
+						<h2>Why?</h2>
 						<p class="fragment">There seem to be relatively few people involved in perl...</p>
 						<aside class="notes">
 							re: dc.pm discussions re: getting people interest in perl again
