@@ -1,7 +1,7 @@
-unit-testing-and-perl
+perl-evangelism-through-civic-hacking
 =====================
 
-A simple presentation on the subject matter of unit testing, with a perl 5 focus
+A pep talk
 
 Reveal.js
 =====================
