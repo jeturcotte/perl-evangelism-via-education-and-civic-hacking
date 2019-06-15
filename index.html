@@ -41,8 +41,11 @@
 				height: 75% !important;
 				width: 75% !important;
 			}
-			h1, h2, h3, h4, h5, p {
+			h1, h2, h3, h4, h5, p, li {
 				font-family: Geneva, Tahoma, Verdana, sans-serif !important;
+			}
+			li {
+				font-size: 0.80em;
 			}
 			pre {
 				font-size: 0.55em !important;
@@ -148,7 +151,6 @@ return {
 					<section data-transition="none"><img src="slides/why.stevan.sigs.png" /></section>
 					<section data-transition="none"><img src="slides/why.stevan.cpan.png" /></section>
 					<section data-transition="none"><img src="slides/why.stevan.perl_core.png" /></section>
-					<section data-transition="none"><img src="slides/why.snark.fixed.png" /></section>
 				</section>
 
 				<section data-transition="concave">
@@ -157,6 +159,7 @@ return {
 
 				<section data-transition="concave">
 					<section data-transition="none"><img src="slides/why.stevan.echo.png" /></section>
+					<section data-transition="none"><img src="slides/why.snark.fixed.png" /></section>
 					<section data-transition="none"><img src="slides/why.stevan.island.png" /></section>
 					<section data-transition="none"><img src="slides/why.stevan.bikeshedding.png" /></section>
 					<section data-transition="none"><img src="slides/why.stevan.backwards.png" /></section>
@@ -184,8 +187,9 @@ return {
 						No longer just a rivalry w/Python anymore,<BR>what with Ruby, PHP, and Node<BR>~ C. Myhrvold
 					</section>
 					<section data-transition="none">
-						Perlmongers are too busy being productive to herald perk<BR>~ C. Myhrvold
+						Perlmongers are too busy <BR><strong>being productive</strong> to herald perl<BR>~ C. Myhrvold
 					</section>
+					<section data-transition="none"><img src="slides/why.snark.tack.png" /></section>
 					<section data-transition="none">
 						No one is even teaching perl<BR>~ C. Myrhvold
 					</section>
@@ -201,7 +205,8 @@ return {
 					<section data-transition="none">
 						And sure… there’re tutorials and IRC channels with help, but they rather require one to KNOW that they want to know perl.
 					</section>
-					<section data-background="slides/tiobe.now.png"><img src="slides/why.conor.still_perl.png" /></section>
+					<section data-background="slides/tiobe.now.png" data-transition="none"><img src="slides/why.conor.still_perl.png" /></section>
+					<section data-background="slides/tiobe.now.png" data-transition="none"><img src="slides/why.slashdot.png" /></section>
 				</section>
 
 				<section data-transition="concave">
@@ -290,9 +295,10 @@ return {
 						<ul>
 							<li class='fragment'>local geeks, knowing this to be an outrageous contract, issued a challenge…</li>
 							<li class='fragment'>but it has to be completed within 10 days</li>
+							<li class='fragment'>though winners would be awarded 1/10000th as much ($9800) for their efforts</li>
 							<li class='fragment'>ultimately, they receive 173 submissions</li>
 							<li class='fragment'>5 of which were presented to congress and are still in the app store today</li>
-							<li class='fragment'>this has since sparked a movement</li>
+							<li class='fragment'>this has since sparked a movement and saved the city a great deal of money</li>
 						</ul>
 					</section>
 					<section data-transition="none">
@@ -302,13 +308,13 @@ return {
 					<section data-transition="none">
 						<h2>Solution!</h2>
 						<ul>
-							<li class='fragment'>Code for NoVA (part of Code for America and hosted at the NSF at the time) took a look</li>
-							<li class='fragment'>compared NSF data of awards granted in 2012 to PTO patents awarded since then</li>
-							<li class='fragment'>manually found that several grants had not been credited with the patents awarded from the research</li>
-							<li class='fragment'>wrote pattern matching routines to find mislabelled patent awards</li>
-							<li class='fragment'>found 800% more assocations between grants and patents than the NSF knew of</li>
-							<li class='fragment'>spurred the PTO to improve their grant report form with patent filings</li>
-							<li class='fragment'>thus improving compliance and making plain how useful NSF grants really are</li>
+							<li class='fragment'>Code for NoVA (part of Code for America) took a look</li>
+							<li class='fragment'>they compared NSF data of awards granted in 2012 to PTO patents awarded since then</li>
+							<li class='fragment'>manually found that several grants had not been credited correctly with the patents awarded</li>
+							<li class='fragment'>wrote pattern matching routines to find more mislabelled patent awards</li>
+							<li class='fragment'>found 800% more assocations between grants and patents</li>
+							<li class='fragment'>spurred the PTO to improve their grant report form for patent filings</li>
+							<li class='fragment'><em>NOTE: Most of the work was done by high school students</em></li>
 						</ul>
 					</section>
 					<section data-transition="none"><img src="slides/what.josh.perl_easily.png" /></section>
@@ -322,6 +328,7 @@ return {
 				</section>
 
 				<section data-transition="concave">
+					<section data-transition="none"><img src="slides/how.josh.what_if.png" /></section>
 					<section data-transition="none">
 						What if the perl community went out and found real problems, solved them with perl, and gave away the results?
 					</section>
@@ -341,12 +348,73 @@ return {
 						What if this new blood started showing up to TPC & DCBPW?	
 					</section>
 					<section data-transition="none"s>
-						What if this new blood started showed up to DC.PM meetings without having to be threatened with pizza first?
+						What if this new blood turned up at DC.PM or Pittsburg.PM meetings without having to be threatened with pizza first?
+					</section>
+				</section>
+
+				<section data-transition="concave">
+					<section data-transition="none"><img src="slides/how.josh.what_if.png" /></section>
+					<section data-transition="none">
+						What if you made an app that helped townsfolk report erosion or road damage?
+					</section>
+					<section data-transition="none">
+						What if you made an easy-to-install servlet that helped townsfolk organize around small local civic hacks of their own?
+					</section>
+					<section data-transition="none">
+						What if you released an easy-to-install service for making the organizing and hosting of events like this, large or small, a snap for most anyone?
+					</section>
+					<section data-transition="none">
+						What if you created a service that got people’s heads wrapped around good nutrition in a new way?
+						<img class='fragment' src="slides/why.snark.tack.png" />
+					</section>
+					<section data-transition="none">
+						What if you made a module bent on teaching programming…  and used perl to do it?
+						<p class='fragment'>What if this meant perl was taught to middle and high schoolers instead of or alignside python?</p>
+						<p class='fragment'><small>NOTE: Python's highly opinionated ways have been cited to me as why it is taught as an introductory language.</small></p>
+					</section>
+					<section data-transition="none">
+						What if, after that, you released a free and easy-to-install application that turned education on its head in a way that paid teachers better while ensuring students master every subject?
+					</section>
+					<section data-transition="none">
+						What if you fixed online voting?
+					</section>
+					<section data-transition="none">
+						What if you produced an application that helped folk halve their carbon footprint without giving up much of anything?
+					</section>
+					<section data-transition="none">
+						What if... <span class='fragment'>perl became sysnonymous with civic hacking? <span class='fragment'>With improving the world?</span></span>
+					</section>
+					<section data-transition="none">
+						<h1>Perl 5 and 6 are up to the task</h1>
+					</section>
+					<section data-transition="none">
+						What I've observed is that people show up to DC.PM or to Code-for-NoVA either to learn, or when there's a project.
+					</section>
+					<section data-transition="zoom">
+						So let's give perl and ourselves a project... or ten.
+					</section>
+				</section>
+
+				<section data-transition="concave">
+					<section data-transition="none">
+						On that note...
+					</section>
+					<section data-transition="zoom"><img src="slides/how.josh.ingredient.guru.png" /></section>
+					<section data-transition="none">
+						<ul>
+							<li>A project bent on improving public health<span class='fragment'> through healthy eating</span><span class='fragment'>, having leveraged folks' competitive spirit</span><span class='fragment'> while saving them money.</span><small class='fragment'>(note: the AMA was once quoted having estimated that 3/4s of our medical spending in america is due to poor nutrition)</small></li>
+							<li class='fragment'>It's being done in Perl 6, and leveraging Cro</li>
+							<li class='fragment'>I'm leading the project<span class='fragment'>, but there are high school students getting credit for working on it</span></li>
+							<li class='fragment'>Their programming teacher has fallen head over heels for Perl 6 in the process</li>
+							<li class='fragment'>He's been using python until now</li>
+							<li class='fragment'>And our goal is to have an early draft to present at DCBPW::2020</li>
+						</ul>
 					</section>
 				</section>
 
 				<section data-transition="concave">
 					<img src="slides/use.perl.jpg" />
+					<BR><em>Thank you;</em> if scalar @questions { ... }
 				</section>
 
 			</div>
